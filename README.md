@@ -33,7 +33,7 @@ grant_type | Constant string 'client_credentials'
 
 ```
 #!bash
-curl -H 'Content-Type: application/json' -X POST -d '{"client_id": "XXXXX", "client_secret": "XXXX", grant_type="client_credentials"}' https://api.optretina.com/authorize
+curl --data "client_id=<YOUR_CLIENT_ID>&client_secret=<YOUR_CLIENT_SECRET>&grant_type=client_credentials" https://api.optretina.com/authorize
 ```
 
 ### Retrieving a collection of cases
