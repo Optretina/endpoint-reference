@@ -52,7 +52,7 @@ Param  | Description
 
 ```
 #!bash
-curl -i -H "Accept: application/json" -H "Content-Type: application/json" -X GET https://api.optretina.com/cases
+curl -H "Authorization: Bearer <YOUR_TOKEN>" https://api.optretina.com/cases
 ```
 
 ### Retrieving a single case
@@ -73,7 +73,7 @@ ID  | Case ID
 
 ```
 #!bash
-curl -i -H "Accept: application/json" -H "Content-Type: application/json" -X GET https://api.optretina.com/cases/<CASE_ID>
+curl -H "Authorization: Bearer <YOUR_TOKEN>" https://api.optretina.com/cases/<CASE_ID>
 ```
 ### Getting a report
 
@@ -95,7 +95,7 @@ ID  | Case ID
 
 ```
 #!bash
-curl -i -H "Accept: application/json" -H "Content-Type: application/json" -X GET https://api.optretina.com/cases/report/<CASE_ID>
+curl -H "Authorization: Bearer <YOUR_TOKEN>" https://api.optretina.com/cases/report/<CASE_ID>
 ```
 
 ### Create a case
