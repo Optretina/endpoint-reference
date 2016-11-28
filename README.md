@@ -106,6 +106,39 @@ curl -H "Authorization: Bearer <YOUR_TOKEN>" https://api.optretina.com/cases/rep
 
 **Authentication**: Required
 
+**Valid params:
+
+Param  | Type
+------------- | -------------
+history_number  | String
+first_name  | String
+last_name  | String
+gender  | 0: MALE, 1: FEMALE
+age  | number
+diabetes  | // 0: no, 1: yes
+visit_date  | YYYY-MM-DD
+visit_reason  | String
+ophthalmic_antecedents  | String
+other_relevant_info  | String
+retinologist_notes  | String
+od_iop  | float
+od_va  | float
+od_axis  | float
+od_cylinder  | float
+od_sphere  | float
+od_add  | float
+od_prism  | float
+od_prism_base  | float
+os_iop  | float
+os_va  | float
+os_axis  | float
+os_cylinder  | float
+os_sphere  | float
+os_add  | float
+os_prism  | float
+os_prism_base  | float
+callback_url | URL
+images | Array files
 
 #### Example
 
