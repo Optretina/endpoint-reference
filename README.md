@@ -144,7 +144,7 @@ images | Array files
 
 ```
 #!bash
-curl  -H "Authorization: Bearer <YOUR_TOKEN>" --form "images[]=@<PATH_IMAGE>;filename=<FILE_NAME>" --form "images[]=<PATH_IMAGE_2>;filename=<FILE_NAME_2>" --form first_name=<PATIENT_NAME> --form last_name=<PATIENT_LAST_NAME> --form gender=<GENDER>  --form age=<AGE> --form paramName=paramValue ... https://api.optretina.com/cases
+curl  -H "Authorization: Bearer <YOUR_TOKEN>" --form "images[]=@<PATH_IMAGE>;filename=<FILE_NAME>" --form "images[]=@<PATH_IMAGE_2>;filename=<FILE_NAME_2>" --form first_name=<PATIENT_NAME> --form last_name=<PATIENT_LAST_NAME> --form gender=<GENDER>  --form age=<AGE> --form paramName=paramValue ... https://api.optretina.com/cases
 ```
 
 Getting Help
