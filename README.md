@@ -83,7 +83,7 @@ curl -H "Authorization: Bearer <YOUR_TOKEN>" https://api.optretina.com/cases/<CA
 
 **Authentication**: Required
 
-**Returns**: PDF file
+**Returns**: PDF file. Note: Output as code string in base64.
 
 Param  | Description
 ------------- | -------------
