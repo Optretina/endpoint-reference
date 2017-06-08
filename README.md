@@ -108,37 +108,37 @@ curl -H "Authorization: Bearer <YOUR_TOKEN>" https://api.optretina.com/cases/rep
 
 **Valid params:
 
-Param  | Type
-------------- | -------------
-history_number  | String
-first_name  | String
-last_name  | String
-gender  | 0: MALE, 1: FEMALE
-age  | number
-diabetes  | // 0: no, 1: yes
-visit_date  | YYYY-MM-DD
-visit_reason  | String
-ophthalmic_antecedents  | String
-other_relevant_info  | String
-retinologist_notes  | String
-od_iop  | float
-od_va  | float
-od_axis  | float
-od_cylinder  | float
-od_sphere  | float
-od_add  | float
-od_prism  | float
-od_prism_base  | float
-os_iop  | float
-os_va  | float
-os_axis  | float
-os_cylinder  | float
-os_sphere  | float
-os_add  | float
-os_prism  | float
-os_prism_base  | float
-callback_url | URL
-images | Array files
+Param  | Type | Mandatory
+------------- | ------------- | -------------
+history_number  | String | true
+first_name  | String | false
+last_name  | String |  false
+gender  | 0: MALE, 1: FEMALE | true
+age  | number | true
+diabetes  | 0: no, 1: yes  | true
+visit_date  | YYYY-MM-DD | false
+visit_reason  | String | false
+ophthalmic_antecedents  | String | false
+other_relevant_info  | String | false
+retinologist_notes  | String | false
+od_iop  | float | true
+od_va  | float | true
+od_axis  | float | false
+od_cylinder  | float | false
+od_sphere  | float | false
+od_add  | float | false
+od_prism  | float | false
+od_prism_base  | float | false
+os_iop  | float | true
+os_va  | float | true
+os_axis  | float | false
+os_cylinder  | float | false
+os_sphere  | float | false
+os_add  | float | false
+os_prism  | float | false
+os_prism_base  | float | false
+callback_url | URL | false
+images | Array files | false
 
 #### Example
 
